@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorteador</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    />
+  </head>
+  <body>
+    <main>
+      <img src="assets/logo.png" alt="logo-luck-premiacoes" />
+
+      <p>Escolha um número</p>
+
+      <div class="inputs">
+        <input
+          id="input1"
+          type="number"
+          placeholder="entre"
+          class="no-spin"
+          autofocus
+        />
+        <input id="input2" type="number" placeholder="e" class="no-spin" />
+      </div>
+
+      <button onclick="numberSorteio()">Sortear</button>
+
+      <div class="box-result" style="display: non">
+        <p>O número sorteado é:</p>
+        <p class="results"></p>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
