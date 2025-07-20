@@ -1,4 +1,7 @@
-![preview](assets/logo.png)
+<div align="center">
+  <img src="./assets/preview.png" alt="Preview do sorteador" />
+</div>
+
 # 🎲 Sorteador de Números
 
 Projeto desenvolvido com **HTML**, **CSS** e **JavaScript**, que permite sortear um número aleatório entre dois valores definidos pelo usuário. Ideal para sorteios, dinâmicas e interações em tempo real.
@@ -13,13 +16,16 @@ Projeto desenvolvido com **HTML**, **CSS** e **JavaScript**, que permite sortear
 
 ## 🛠️ Tecnologias Utilizadas
 
-- HTML5
-- CSS3 (utilização de Flexbox, sombras, transições e fontes do Google Fonts)
-- JavaScript (manipulação do DOM e lógica com `Math.random()`)
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+
 
 ## 🚀 Como Usar
 
-1. **Clone o repositório:**
+- Insira dois números nos campos disponíveis.
 
-   ```bash
-   git clone https://github.com/SeuUsuario/NomeDoRepositorio.git
+- Clique no botão "Sortear" para ver o número aleatório entre eles.
+
+   
+Project by Caio Fábio in 07/2025
